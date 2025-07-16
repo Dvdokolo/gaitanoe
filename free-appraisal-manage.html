@@ -50,7 +50,7 @@
   <div class="h-screen ">
    
     <!-- App Container -->
-    <div id="app" class="min-h-screen flex flex-col bg-black/10">
+    <div id="app" class="min-h-screen flex flex-col bg-white">
       
      
      
@@ -106,7 +106,7 @@
                       <a href="./sell-with-us.html"
                         class="block text-gray-300 hover:text-orange-500 hover:bg-[#002f60] px-5 py-2 rounded transition-all leading-relaxed">Sell with us</a>
                       <a href="./free-appraisal-manage.html"
-                        class="block text-gray-300 hover:text-orange-500 hover:bg-[#002f60] px-5 py-2 rounded transition-all leading-relaxed">Free Apraisal</a>
+                        class="block text-orange-500 bg-[#002f60] px-5 py-2 rounded transition-all leading-relaxed">Free Apraisal</a>
                       <a href="./recent-sales-sell.html"
                         class="block text-gray-300 hover:text-orange-500 hover:bg-[#002f60] px-5 py-2 rounded transition-all leading-relaxed">Recent Sales</a>
                     </div>
@@ -128,7 +128,7 @@
                         class="block text-gray-300 hover:text-orange-500 hover:bg-[#002f60] px-5 py-2 rounded transition-all leading-relaxed">Property management services
                         </a>
                       <a href="./free-appraisal-manage.html"
-                        class="block text-gray-300 hover:text-orange-500 hover:bg-[#002f60] px-5 py-2 rounded transition-all leading-relaxed">
+                        class="block text-orange-500 bg-[#002f60] px-5 py-2 rounded transition-all leading-relaxed">
                         Free Appraisal</a>
                     </div>
                   </div>
@@ -260,7 +260,82 @@
   }
 </script>
 
-<div class="mt-[10rem]">
+<div class="mt-[6rem]">
+
+   <div class="max-w-[75rem] mx-auto px-4 py-12 text-center">
+      <h1 class="text-4xl font-bold mb-10">Free Appraisal</h1>
+     
+      <!-- Error Message -->
+      <div id="errorMessage" class="hidden bg-red-100 text-red-700 px-4 py-3 rounded mb-6 text-left">
+        Information cannot be processed. Please try again.
+      </div>
+
+      <form id="registerForm" class="flex flex-wrap gap-6 justify-between text-left">
+        <div class="w-full ">
+          
+          <input type="text" id="firstName" placeholder="Name*" class="w-full border border-gray-300  px-5 py-5" />
+        </div>
+
+        <div class="w-full ">
+          
+          <input type="text"  placeholder="Address*" class="w-full border border-gray-300  px-5 py-5" />
+        </div>
+
+        <div class="w-full">
+          
+          <input type="email"  placeholder="Suburd*" class="w-full border border-gray-300  px-5 py-5" />
+        </div>
+
+        <div class="w-full ">
+          
+          <input type="text" id="email" placeholder="Email*" id="" class="w-full border border-gray-300  px-5 py-5" />
+        </div>
+
+        <div class="w-full ">
+          
+          <input type="number" placeholder="contact number" id="" class="w-full border border-gray-300  px-5 py-5" />
+        </div>
+
+        <div class="space-x-6 mt-4">
+  <!-- Sale Checkbox -->
+  <label class="inline-flex items-center space-x-2">
+    <input type="checkbox" name="sale" class="form-checkbox h-5 w-5 text-blue-600">
+    <span class="text-[#0a2e52] font-medium">Sale</span>
+  </label>
+
+  <!-- Lease Checkbox -->
+  <label class="inline-flex items-center space-x-2">
+    <input type="checkbox" name="lease" class="form-checkbox h-5 w-5 text-blue-600">
+    <span class="text-[#0a2e52] font-medium">Lease</span>
+  </label>
+
+    <p class="text-sm mt-10 space-x-0 text-left">
+        Please note by submitting this form, you will receive marketing materials from Gaitanoe Real Estate tailored to your property needs.
+      </p>
+
+</div>
+
+
+        <div class="w-full text-center  mt-4">
+          <button type="submit" class="bg-orange-500 hover:bg-[#1a242f] hover:text-white duration-200 shadow-2xl text-white font-semibold py-3 px-8 ">
+            SUBMIT
+          </button>
+        </div>
+      </form>
+
+    
+    </div>
+
+    <script>
+      document.getElementById("registerForm").addEventListener("submit", function (e) {
+        e.preventDefault(); // prevent actual submission
+        const errorDiv = document.getElementById("errorMessage");
+        errorDiv.classList.remove("hidden");
+      });
+    </script>
+
+
+
 
 </div>
 
@@ -270,8 +345,10 @@
 
 
 
+
+
 <!-- footer  -->
-  <footer class="bg-[#ffffffbd]  pt-12 px-4 py-[4rem] md:px-8 lg:px-16">
+   <footer class="bg-[#e4e4e487]  pt-12 px-4 py-[4rem] md:px-8 lg:px-16">
 
           <div class="container mx-auto">
             <!-- Top Section -->
@@ -290,11 +367,11 @@
                   <div>
                     <h3 class="font-bold  mb-4">Buy</h3>
                     <ul class="space-y-2">
-                      <a href="./properties-for-sale.html"class="hover:text-blue-600 transition-colors">Properties For Sale</a></li>
-                      <a href="./this-week’s-opens.html" class="hover:text-blue-600 transition-colors">This Week's Opens</a></li>
-                      <a href="./this-week’s-opens.html" class="hover:text-blue-600 transition-colors">This Week's Auctions</a></li>
-                      <a href="./property-alert.html" class="hover:text-blue-600 transition-colors">Property Alert</a></li>
-                      <a href="./recent-sales.html" class="hover:text-blue-600 transition-colors">Recent Sales</a></li>
+                      <li><a href="./properties-for-sale.html"class="hover:text-blue-600 transition-colors">Properties For Sale</a></li>
+                      <li><a href="./this-week’s-opens.html" class="hover:text-blue-600 transition-colors">This Week's Opens</a></li>
+                      <li><a href="./this-week’s-opens.html" class="hover:text-blue-600 transition-colors">This Week's Auctions</a></li>
+                      <li><a href="./property-alert.html" class="hover:text-blue-600 transition-colors">Property Alert</a></li>
+                      <li><a href="./recent-sales.html" class="hover:text-blue-600 transition-colors">Recent Sales</a></li>
                     </ul>
                   </div>
 
@@ -302,11 +379,11 @@
                   <div>
                     <h3 class="font-bold  mb-4">Rent</h3>
                     <ul class="space-y-2">
-                      <a href="./properties-for-rent.html"  class="hover:text-blue-600 transition-colors">Properties For Rent</a></li>
-                      <a href="./this-week’s-options-rent.html"  class="hover:text-blue-600 transition-colors">This Week's Opens</a></li>
-                      <a href="./recent-leases.html" class="hover:text-blue-600 transition-colors">Recent Leases</a></li>
-                      <a href="./properties-alert-rent.html" class="hover:text-blue-600 transition-colors">Property Alert</a></li>
-                      <a href="./tenant-information.html"  class="hover:text-blue-600 transition-colors">Tenant Information</a></li>
+                      <li><a href="./properties-for-rent.html"  class="hover:text-blue-600 transition-colors">Properties For Rent</a></li>
+                      <li><a href="./this-week’s-options-rent.html"  class="hover:text-blue-600 transition-colors">This Week's Opens</a></li>
+                      <li><a href="./recent-leases.html" class="hover:text-blue-600 transition-colors">Recent Leases</a></li>
+                      <li><a href="./properties-alert-rent.html" class="hover:text-blue-600 transition-colors">Property Alert</a></li>
+                      <li><a href="./tenant-information.html"  class="hover:text-blue-600 transition-colors">Tenant Information</a></li>
                       <li><a href="./tenan-portal.html" class="hover:text-blue-600 transition-colors">Tenant Portal</a></li>
                     </ul>
                   </div>
@@ -315,10 +392,10 @@
                   <div>
                     <h3 class="font-bold  mb-4">Sell</h3>
                     <ul class="space-y-2">
-                      <a href="./sell-with-us.html"  class="hover:text-blue-600 transition-colors">Sell With Us</a></li>
+                     <li> <a href="./sell-with-us.html"  class="hover:text-blue-600 transition-colors">Sell With Us</a></li>
                       <li><a href="#" class="hover:text-blue-600 transition-colors">Testimonials</a></li>
-                      <a href="./free-apraisal.html"  class="hover:text-blue-600 transition-colors">Free Appraisal</a></li>
-                      <a href="./recent-sales-sell.html"  class="hover:text-blue-600 transition-colors">Recent Sales</a></li>
+                      <li><a href="./free-apraisal.html"  class="hover:text-blue-600 transition-colors">Free Appraisal</a></li>
+                      <li><a href="./recent-sales-sell.html"  class="hover:text-blue-600 transition-colors">Recent Sales</a></li>
                       <li><a href="#" class="hover:text-blue-600 transition-colors">Success Stories</a></li>
                     </ul>
                   </div>
@@ -365,7 +442,6 @@
             </div>
           </div>
         </footer>
-
 
 </div>
   </div>

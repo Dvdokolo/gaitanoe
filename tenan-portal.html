@@ -50,7 +50,7 @@
   <div class="h-screen ">
    
     <!-- App Container -->
-    <div id="app" class="min-h-screen flex flex-col bg-black/10">
+    <div id="app" class="min-h-screen flex flex-col bg-white">
       
      
      
@@ -156,7 +156,7 @@
             <div class="group-hover:block hidden absolute top-full left-0 bg-black/60 backdrop-blur-sm py-6 z-50">
               <div class="w-52 space-y-1">
                 <a href="./Staff-portal.html" class="block text-gray-300 hover:text-orange-500 hover:bg-[#002f60] px-5 py-2">Staff Portal</a>
-                <a href="./tenan-portal.html" class="block text-gray-300 hover:text-orange-500 hover:bg-[#002f60] px-5 py-2">Tenant Portal</a>
+                <a href="./tenan-portal.html" class="block text-orange-500 bg-[#002f60] px-5 py-2">Tenant Portal</a>
                 <a href="./owner-portal.html" class="block text-gray-300 hover:text-orange-500 hover:bg-[#002f60] px-5 py-2">Owner Portal</a>
               </div>
             </div>
@@ -260,8 +260,109 @@
   }
 </script>
 
-<div class="mt-[10rem]">
+<div class="">
 
+   <div class="container">
+<div class="flex justify-between">
+  <img src="./images/tenants.jpg" class="h-screen w-[50rem] object-fill" alt="">
+
+   <form id="enquiry-form-element" action="#" method="POST" class="mt-[8rem] mx-[5rem] space-y-6">
+    <h1 class="font-bold text-2xl">
+      Tenant Portal
+
+    </h1>
+                        <!-- First Name -->
+                        <div>
+                            <input type="text" name="first-name" id="first-name" placeholder="First Name*" class="mt-1 block w-full px-4 py-3 border border-gray-300  shadow-sm placeholder-gray-400 focus:outline-none focus:ring-[#002f61] focus:border-[#002f61]" required>
+                        </div>
+                        
+                        <!-- Last Name -->
+                        <div>
+                            <input type="text" name="last-name" id="last-name" placeholder="Last Name*" class="mt-1 block w-full px-4 py-3 border border-gray-300  shadow-sm placeholder-gray-400 focus:outline-none focus:ring-[#002f61] focus:border-[#002f61]" required>
+                        </div>
+
+                       
+
+                        <!-- Email -->
+                        <div id="email-field">
+                            <input type="email" name="email" id="email" placeholder="Email*" class="mt-1 block w-full px-4 py-3 border border-gray-300  shadow-sm placeholder-gray-400 focus:outline-none focus:ring-[#002f61] focus:border-[#002f61]" required>
+                        </div>
+
+                        <!-- Mobile Number -->
+                        <div id="mobile-field">
+                            <input type="tel" name="mobile-number" id="mobile-number" placeholder="Mobile number*" class="mt-1 block w-full px-4 py-3 border border-gray-300  shadow-sm placeholder-gray-400 focus:outline-none focus:ring-[#002f61] focus:border-[#002f61]" required>
+                        </div>
+
+                        <!-- Enquiry -->
+                        <div>
+                            <textarea id="enquiry" name="enquiry" rows="4" placeholder="Enquiry" class="mt-1 block w-full px-4 py-3 border border-gray-300  shadow-sm placeholder-gray-400 focus:outline-none focus:ring-[#002f61] focus:border-[#002f61]"></textarea>
+                        </div>
+                        
+                        <!-- Disclaimer -->
+                        <div>
+                            <p class="text-sm text-gray-500">Please note by submitting this form, you will receive marketing materials from Morton Real Estate tailored to your property needs.</p>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div>
+                            <button type="submit" class="inline-flex justify-center py-3 px-12 border border-transparent shadow-sm text-sm font-bold  text-white bg-[rgb(228,130,58)] hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 transition-colors">
+                                SUBMIT
+                            </button>
+                        </div>
+                    </form>
+
+</div>
+                      <!-- Success Modal -->
+    <div id="success-modal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+        <div class="bg-white rounded-lg p-8 shadow-2xl text-center max-w-md mx-4">
+            <svg class="w-16 h-16 mx-auto text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <h3 class="text-2xl font-bold text-[#002f61] mt-4">Thank You!</h3>
+            <p class="text-gray-600 mt-2">Your enquiry has been sent successfully. We will be in touch with you shortly.</p>
+            <button id="close-modal-btn" class="mt-6 inline-flex justify-center py-2 px-8 border border-transparent shadow-sm text-sm font-bold  text-white bg-[rgb(228,130,58)] hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 transition-colors">
+                Close
+            </button>
+        </div>
+    </div>
+                    
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // --- Enquiry Form Submission Logic ---
+            const enquiryForm = document.getElementById('enquiry-form-element');
+            const successModal = document.getElementById('success-modal');
+            const closeModalBtn = document.getElementById('close-modal-btn');
+
+            if (enquiryForm && successModal && closeModalBtn) {
+                enquiryForm.addEventListener('submit', function (event) {
+                    // Prevent the default form submission
+                    event.preventDefault();
+                    
+                    // Show the success modal
+                    successModal.classList.remove('hidden');
+                });
+
+                // Function to close the modal
+                const closeModal = () => {
+                    successModal.classList.add('hidden');
+                    // Reset the form fields for the next submission
+                    enquiryForm.reset();
+                };
+
+                // Close modal when the close button is clicked
+                closeModalBtn.addEventListener('click', closeModal);
+
+                // Close modal when clicking on the background overlay
+                successModal.addEventListener('click', function(event) {
+                    if (event.target === successModal) {
+                        closeModal();
+                    }
+                });
+            }
+
+            // --- Other script logic from previous steps would go here ---
+        });
+    </script>
+                    </div>
+   
 </div>
 
 
@@ -270,17 +371,18 @@
 
 
 
+
 <!-- footer  -->
-  <footer class="bg-[#ffffffbd]  pt-12 px-4 py-[4rem] md:px-8 lg:px-16">
+   <footer class="bg-[#e4e4e487]  pt-12 px-4 py-[4rem] md:px-8 lg:px-16">
 
           <div class="container mx-auto">
             <!-- Top Section -->
             <div class="flex flex-col lg:flex-row justify-between gap-8 mb-8">
               <!-- Contact Info -->
               <div class="lg:w-1/4">
-                <img src="./images/logo.png" class="h-28 mb-6 w-auto rounded-full" alt="gaitanoe Logo">
+                <img src="./images/logo.png" class="h-28 mb-6 w-auto rounded-full" alt="Gaitanoe Logo">
                 <p class="mb-2"><span class="font-semibold">T:</span> 1300 858 221</p>
-                <p><span class="font-semibold">E:</span> info@gaitanoe.com</p>
+                <p><span class="font-semibold">E:</span> info@Gaitanoe.com</p>
               </div>
 
               <!-- Main Links Grid -->
@@ -290,11 +392,11 @@
                   <div>
                     <h3 class="font-bold  mb-4">Buy</h3>
                     <ul class="space-y-2">
-                      <a href="./properties-for-sale.html"class="hover:text-blue-600 transition-colors">Properties For Sale</a></li>
-                      <a href="./this-week’s-opens.html" class="hover:text-blue-600 transition-colors">This Week's Opens</a></li>
-                      <a href="./this-week’s-opens.html" class="hover:text-blue-600 transition-colors">This Week's Auctions</a></li>
-                      <a href="./property-alert.html" class="hover:text-blue-600 transition-colors">Property Alert</a></li>
-                      <a href="./recent-sales.html" class="hover:text-blue-600 transition-colors">Recent Sales</a></li>
+                      <li><a href="./properties-for-sale.html"class="hover:text-blue-600 transition-colors">Properties For Sale</a></li>
+                      <li><a href="./this-week’s-opens.html" class="hover:text-blue-600 transition-colors">This Week's Opens</a></li>
+                      <li><a href="./this-week’s-opens.html" class="hover:text-blue-600 transition-colors">This Week's Auctions</a></li>
+                      <li><a href="./property-alert.html" class="hover:text-blue-600 transition-colors">Property Alert</a></li>
+                      <li><a href="./recent-sales.html" class="hover:text-blue-600 transition-colors">Recent Sales</a></li>
                     </ul>
                   </div>
 
@@ -302,11 +404,11 @@
                   <div>
                     <h3 class="font-bold  mb-4">Rent</h3>
                     <ul class="space-y-2">
-                      <a href="./properties-for-rent.html"  class="hover:text-blue-600 transition-colors">Properties For Rent</a></li>
-                      <a href="./this-week’s-options-rent.html"  class="hover:text-blue-600 transition-colors">This Week's Opens</a></li>
-                      <a href="./recent-leases.html" class="hover:text-blue-600 transition-colors">Recent Leases</a></li>
-                      <a href="./properties-alert-rent.html" class="hover:text-blue-600 transition-colors">Property Alert</a></li>
-                      <a href="./tenant-information.html"  class="hover:text-blue-600 transition-colors">Tenant Information</a></li>
+                      <li><a href="./properties-for-rent.html"  class="hover:text-blue-600 transition-colors">Properties For Rent</a></li>
+                      <li><a href="./this-week’s-options-rent.html"  class="hover:text-blue-600 transition-colors">This Week's Opens</a></li>
+                      <li><a href="./recent-leases.html" class="hover:text-blue-600 transition-colors">Recent Leases</a></li>
+                      <li><a href="./properties-alert-rent.html" class="hover:text-blue-600 transition-colors">Property Alert</a></li>
+                      <li><a href="./tenant-information.html"  class="hover:text-blue-600 transition-colors">Tenant Information</a></li>
                       <li><a href="./tenan-portal.html" class="hover:text-blue-600 transition-colors">Tenant Portal</a></li>
                     </ul>
                   </div>
@@ -315,10 +417,10 @@
                   <div>
                     <h3 class="font-bold  mb-4">Sell</h3>
                     <ul class="space-y-2">
-                      <a href="./sell-with-us.html"  class="hover:text-blue-600 transition-colors">Sell With Us</a></li>
+                     <li> <a href="./sell-with-us.html"  class="hover:text-blue-600 transition-colors">Sell With Us</a></li>
                       <li><a href="#" class="hover:text-blue-600 transition-colors">Testimonials</a></li>
-                      <a href="./free-apraisal.html"  class="hover:text-blue-600 transition-colors">Free Appraisal</a></li>
-                      <a href="./recent-sales-sell.html"  class="hover:text-blue-600 transition-colors">Recent Sales</a></li>
+                      <li><a href="./free-apraisal.html"  class="hover:text-blue-600 transition-colors">Free Appraisal</a></li>
+                      <li><a href="./recent-sales-sell.html"  class="hover:text-blue-600 transition-colors">Recent Sales</a></li>
                       <li><a href="#" class="hover:text-blue-600 transition-colors">Success Stories</a></li>
                     </ul>
                   </div>
@@ -360,7 +462,7 @@
 
             <!-- Copyright Section -->
             <div class="text-sm flex justify-center ">
-              <p>Copyright © 2025 gaitanoe. All rights reserved 
+              <p>Copyright © 2025 Gaitanoe. All rights reserved 
               </p>
             </div>
           </div>
