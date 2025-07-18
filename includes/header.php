@@ -1,18 +1,18 @@
       
 <header class="relative">
   <!-- Main Navigation -->
-  <nav class="text-[#002f60] fixed z-50 w-full shadow-xl bg-white transition-all duration-500 ease-in-out">
+  <nav class="text-[#002f60] fixed z-50 w-full shadow-xl bg-white transition-all duration-500 ease-in-out" style="margin-top:-11px">
     <div class="container mx-auto px-4 md:px-20">
       <div class="flex justify-between items-center">
         <!-- Logo -->
         <div>
           <a href="index">
-            <img src="images/logo.png" alt="Logo" class="h-[100px] rounded-full p-2 w-auto">
+            <img src="images/logo1.png" alt="Logo" class="h-[100px] p-2 w-auto">
           </a>
         </div>
 
         <!-- Desktop Menu -->
-        <div class="hidden lg:flex items-center space-x-2">
+        <div class="hidden lg:flex items-center space-x-2" style="margin-bottom: -10px;">
           <!-- Dropdown Group -->
           <div class="group relative">
             <button class="px-4 py-8 hover-bg-brand hover-text-brand transition-all">Buy</button>

@@ -107,18 +107,18 @@
       <!-- Header -->
       <header class="relative">
         <!-- Main Navigation -->
-        <nav class="bg-transparent text-white lg:fixed z-50 w-full transition-all duration-500 ease-in-out">
+        <nav class="bg-transparent text-white lg:fixed z-50 w-full transition-all duration-500 ease-in-out" style="margin-top:-11px">
           <div class="container mx-auto px-[1rem] md:px-[5rem]">
             <div class="flex justify-between items-center">
               <!-- Logo -->
               <div>
                 <a href="index">
-                  <img src="images/logo.png" alt="Logo" class="h-[100px] rounded-full p-2 w-auto">
+                  <img src="images/logo1.png" alt="Logo" class="h-[100px] p-2 w-auto">
                 </a>
               </div>
 
               <!-- Desktop Menu -->
-              <div class="hidden lg:flex items-center space-x-2">
+              <div class="hidden lg:flex items-center space-x-2" style="margin-bottom: -10px;">
                 <!-- Each menu item with a dropdown is a 'group' -->
                 <!-- Buy -->
                 <div class="group relative">

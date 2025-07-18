@@ -8,7 +8,7 @@
   <div class="flex flex-col lg:flex-row justify-between gap-8 mb-8">
     <!-- Contact Info -->
     <div class="lg:w-1/4">
-      <img src="images/logo.png" class="h-28 mb-6 w-auto rounded-full" alt="Gaitanoe Logo">
+      <img src="images/logo1.png" class="h-28 mb-6 w-auto" alt="Gaitanoe Logo">
       <p class="mb-2"><span class="font-semibold">T:</span> +234 816 936 0389</p>
       <p><span class="font-semibold">E:</span> info@gaitanoe.com</p>
     </div>
