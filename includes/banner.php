@@ -16,8 +16,8 @@
                 Have a Question?
               </p>
 
-              <form action="contact-us" method="POST">
-              <div class="flex justify-center   ">
+              <form action="contact-us" method="get">
+              <div class="flex justify-center">
                 <!-- Address search input -->
                 <div class="relative mb-8">
                   <input type="text" name="msg" placeholder="Type your question"

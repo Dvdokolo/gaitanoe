@@ -189,6 +189,30 @@
 
             // --- Other script logic from previous steps would go here ---
         });
+
+
+
+        // Run after the DOM is fully parsed
+document.addEventListener('DOMContentLoaded', () => {
+  // Grab the query string, e.g. "?msg=Hello%20World"
+  const params = new URLSearchParams(window.location.search);
+
+  // Check if ?msg= is present
+  if (params.has('msg')) {
+    // Get the raw value
+    let raw = params.get('msg');
+
+    // Decode percent‐encoding (%20 => space, etc.)
+    // and convert plus signs (+) to spaces (URLSearchParams leaves them intact)
+    const decodedMsg = decodeURIComponent(raw).replace(/\+/g, ' ');
+
+    // Insert into the textarea if it exists
+    const textarea = document.getElementById('enquiry');
+    if (textarea) textarea.value = decodedMsg;
+  }
+});
+
+
     </script>
                     </div>
    
