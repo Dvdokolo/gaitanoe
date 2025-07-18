@@ -2,7 +2,7 @@
         <div class="relative h-screen w-full my-[5rem] text-white">
           <!-- Background Image -->
           <div class="absolute inset-0 bg-cover bg-center"
-            style="background-image: url('./images/success-stories.webp');"></div>
+            style="background-image: url('images/success-stories.webp');"></div>
 
           <!-- Overlay with gradient and opacity -->
           <div class="absolute inset-0 bg-gradient-to-r from-black/90 via-black/60 to-transparent"></div>
