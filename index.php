@@ -217,7 +217,7 @@
                   <button class="px-4 py-8 text-white hover-bg-brand hover-text-brand transition-all">Account Access</button>
                   <div class="group-hover:block hidden absolute top-full left-0 bg-black/60  backdrop-blur-sm py-6 z-50">
                     <div class="container mx-auto w-[12.5rem] space-y-1">
-                      <a href="Staff-portal"
+                      <a href="staff-portal"
                         class="block text-gray-300 hover:text-orange-500 hover:bg-[#002f60] px-5 py-2 rounded transition-all leading-relaxed">Staff
                         Portal</a>
                       <a href="tenant-portal"
