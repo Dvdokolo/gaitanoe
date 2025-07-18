@@ -113,44 +113,67 @@ Services
 
 
 
-<h4 class="mt-[5rem]">At Gaitanoe Properties, we offer a full range of real estate services designed to meet the needs of homeowners, investors, renters, and developers. Our goal is simple: to make real estate easier, safer, and more rewarding for you.</h4>
+<h4 class="mt-[5rem]">At Gaitanoe Properties, we offer a full range of real estate services designed to meet the needs of homeowners, investors, renters, and developers. Our goal is simple: to make real estate easier, safer, and more rewarding for you. We offer the following services:</h4>
 
 
+<div class="container mx-auto px-4 py-8">
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+    
+    <!-- Card 1 -->
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+      <img src="images/prs1.jpg" alt="Card Image" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-lg font-semibold mb-2">Property Sales</h3>
+        <p class="text-gray-600">We help individuals and organizations buy and sell genuine residential and commercial properties across Nigeria. From initial listing to final documentation, we manage the entire sales process with professionalism and transparency.</p>
+      </div>
+    </div>
 
-<h3 class="mt-4">🏡 Property Sales</h3>
+    <!-- Card 2 -->
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+      <img src="images/prs2.jpg" alt="Card Image" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-lg font-semibold mb-2">Land Acquisition</h3>
+        <p class="text-gray-600">Looking to buy land for personal or investment purposes? We verify all titles, conduct due diligence, and ensure you're purchasing only authentic, litigation-free land in prime and developing locations.</p>
+      </div>
+    </div>
 
-<p>We help individuals and organizations buy and sell genuine residential and commercial properties across Nigeria. From initial listing to final documentation, we manage the entire sales process with professionalism and transparency.</p>
+    <!-- Card 3 -->
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+      <img src="images/prs3.jpg" alt="Card Image" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-lg font-semibold mb-2">Rentals & Leasing</h3>
+        <p class="text-gray-600">Whether you're searching for a home, office, or shop space, our team will match you with the right rental property that fits your budget and lifestyle. Landlords also trust us to source reliable tenants and manage lease agreements.</p>
+      </div>
+    </div>
 
+    <!-- Card 4 -->
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+      <img src="images/prs4.jpg" alt="Card Image" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-lg font-semibold mb-2">Real Estate Investment Advisory</h3>
+        <p class="text-gray-600">We guide local and diaspora clients on how to grow wealth through smart property investments. With insights into emerging markets, land banking, off-plan projects, and more, we help you make informed, profitable decisions.</p>
+      </div>
+    </div>
 
+    <!-- Card 5 -->
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+      <img src="images/prs5.jpg" alt="Card Image" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-lg font-semibold mb-2">Property Documentation & Verification</h3>
+        <p class="text-gray-600">Avoid the risk of fake or disputed properties. We assist with title search, documentation, and property verification—ensuring all transactions are legally sound and secure.</p>
+      </div>
+    </div>
 
-<h3 class="mt-4">🧱 Land Acquisition</h3>
+    <!-- Card 6 -->
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+      <img src="images/prs6.jpg" alt="Card Image" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-lg font-semibold mb-2">Property Management</h3>
+        <p class="text-gray-600">From rent collection and tenant management to maintenance and inspections, we provide professional management services for landlords and property investors who want hands-free peace of mind.</p>
+      </div>
+    </div>
 
-<p>Looking to buy land for personal or investment purposes? We verify all titles, conduct due diligence, and ensure you're purchasing only authentic, litigation-free land in prime and developing locations.</p>
-
-
-
-<h3 class="mt-4">🏢 Rentals & Leasing</h3>
-
-<p>Whether you're searching for a home, office, or shop space, our team will match you with the right rental property that fits your budget and lifestyle. Landlords also trust us to source reliable tenants and manage lease agreements.</p>
-
-
-
-<h3 class="mt-4">📈 Real Estate Investment Advisory</h3>
-
-<p>We guide local and diaspora clients on how to grow wealth through smart property investments. With insights into emerging markets, land banking, off-plan projects, and more, we help you make informed, profitable decisions.</p>
-
-
-<h3 class="mt-4">🧾 Property Documentation & Verification</h3>
-
-<p>Avoid the risk of fake or disputed properties. We assist with title search, documentation, and property verification—ensuring all transactions are legally sound and secure.</p>
-
-
-<h3 class="mt-4">🏠 Property Management</h3>
-
-<p>From rent collection and tenant management to maintenance and inspections, we provide professional management services for landlords and property investors who want hands-free peace of mind.</p>
-
-
-
+  </div>
 </div>
 
 

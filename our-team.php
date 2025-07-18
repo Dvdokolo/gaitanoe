@@ -121,7 +121,7 @@ Get in touch. We're here to help.
   
 <!-- 2 -->
   <div class="shadow-2xl border-black pb-16 w-[18rem] mx-auto">
-<img src="images/team3.png" class="rounded-full h-[15rem] mx-auto w-[15rem]" alt="">
+<img src="images/team31.png" class="rounded-full h-[15rem] mx-auto w-[15rem]" alt="">
 <br>
 <div class="px-10">
   <h1 class="text-center md-4 font-bold text-2xl">Adeyemi Benjamin</h1>
@@ -135,7 +135,7 @@ Get in touch. We're here to help.
   
 <!-- 3 -->
   <div class="shadow-2xl border-black pb-16 w-[18rem] mx-auto">
-<img src="images/team4.png" class="rounded-full h-[15rem] mx-auto w-[15rem]" alt="">
+<img src="images/team41.png" class="rounded-full h-[15rem] mx-auto w-[15rem]" alt="">
 <br>
 <div class="px-10">
   <h1 class="text-center md-4 font-bold text-2xl">Amina Balogun</h1>
@@ -149,7 +149,7 @@ Get in touch. We're here to help.
   
 <!-- 4x -->
   <div class="shadow-2xl border-black pb-16 w-[18rem] mx-auto">
-<img src="images/team5.png" class="rounded-full h-[15rem] mx-auto w-[15rem]" alt="">
+<img src="images/team51.png" class="rounded-full h-[15rem] mx-auto w-[15rem]" alt="">
 <br>
 <div class="px-10">
   <h1 class="text-center md-4 font-bold text-2xl">Ifeoma Nwachukwu</h1>
@@ -160,7 +160,7 @@ Get in touch. We're here to help.
 
 
   <div class="shadow-2xl border-black pb-16 w-[18rem] mx-auto">
-<img src="images/team6.png" class="rounded-full h-[15rem] mx-auto w-[15rem]" alt="">
+<img src="images/team61.png" class="rounded-full h-[15rem] mx-auto w-[15rem]" alt="">
 <br>
 <div class="px-10">
   <h1 class="text-center md-4 font-bold text-2xl">Sola Adeyemi</h1>
@@ -182,7 +182,7 @@ Get in touch. We're here to help.
 
 
   <div class="shadow-2xl border-black pb-16 w-[18rem] mx-auto">
-<img src="images/team7.png" class="rounded-full h-[15rem] mx-auto w-[15rem]" alt="">
+<img src="images/team71.png" class="rounded-full h-[15rem] mx-auto w-[15rem]" alt="">
 <br>
 <div class="px-10">
   <h1 class="text-center md-4 font-bold text-2xl">Clement Abasi</h1>

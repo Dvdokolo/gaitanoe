@@ -1065,25 +1065,25 @@
             </div>
 
             <div class="flex-shrink-0 text-center w-52">
-              <img src="images/team3.png" class="w-36 h-36 rounded-full mx-auto" alt="">
+              <img src="images/team31.png" class="w-36 h-36 rounded-full mx-auto" alt="">
               <h3 class="mt-4 text-[#002f61] font-bold">Adeyemi Benjamin</h3>
               <p class="text-sm text-gray-600">Chief Operating Officer (COO)</p>
             </div>
 
             <div class="flex-shrink-0 text-center w-52">
-              <img src="images/team4.png" class="w-36 h-36 rounded-full mx-auto" alt="">
+              <img src="images/team41.png" class="w-36 h-36 rounded-full mx-auto" alt="">
               <h3 class="mt-4 text-[#002f61] font-bold">Amina Balogun</h3>
               <p class="text-sm text-gray-600">Chief Financial Officer (CFO)</p>
             </div>
 
             <div class="flex-shrink-0 text-center w-52">
-              <img src="images/team5.png" class="w-36 h-36 rounded-full mx-auto" alt="">
+              <img src="images/team51.png" class="w-36 h-36 rounded-full mx-auto" alt="">
               <h3 class="mt-4 text-[#002f61] font-bold">Ifeoma Nwachukwu</h3>
               <p class="text-sm text-gray-600">Head of Sales & Business Development</p>
             </div>
 
             <div class="flex-shrink-0 text-center w-52">
-              <img src="images/team6.png" class="w-36 h-36 rounded-full mx-auto" alt="">
+              <img src="images/team61.png" class="w-36 h-36 rounded-full mx-auto" alt="">
               <h3 class="mt-4 text-[#002f61] font-bold">Sola Adeyemi</h3>
               <p class="text-sm text-gray-600">Head of Property Management</p>
             </div>
@@ -1095,7 +1095,7 @@
             </div>
 
             <div class="flex-shrink-0 text-center w-52">
-              <img src="images/team7.png" class="w-36 h-36 rounded-full mx-auto" alt="">
+              <img src="images/team71.png" class="w-36 h-36 rounded-full mx-auto" alt="">
               <h3 class="mt-4 text-[#002f61] font-bold">Clement Abasi</h3>
               <p class="text-sm text-gray-600">Head of Marketing & Communications</p>
             </div>
