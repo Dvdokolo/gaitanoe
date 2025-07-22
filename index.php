@@ -4,9 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gaitanoe Properties | Where Integrity Meets Real Estate</title>
-
-  <meta name="description" content="Gaitanoe Properties offers premium real estate solutions—buy, sell, or rent properties with ease and confidence across Nigeria.F">
+  <title>Gaitanoe Properties | Real Estate | Franchise & Synergy Opportunities</title>
+  <meta name="description" content="Explore Gaitanoe Properties - offering trusted real estate solutions, franchise opportunities, and property synergy projects across Nigeria.">
 
   <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
@@ -604,6 +603,7 @@
         <h1 class="text-5xl mx-[2rem] lg:mx-[7rem] font-bold mb-[3rem] ">
           Featured Properties
         </h1>
+        <p class="mx-[2rem] lg:mx-[7rem] mb-[3rem]">At Gaitanoe Properties, we don't just showcase homes — we present opportunities. Our featured properties reflect the strength of the Gaitanoe Franchise model and the collaborative spirit behind Gaitanoe Synergy. Whether you're buying, investing, or expanding through partnership, these listings represent the best of our trusted real estate network across Nigeria.</p>
         <!-- App Container -->
         <div id="app" class="min-h-screen flex flex-col">
 

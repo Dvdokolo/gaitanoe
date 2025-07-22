@@ -34,7 +34,7 @@
 
               <!-- Bottom paragraph -->
               <p class="mt-8 w-full lg:w-[50rem] mx-auto text-center">
-              Gaitanoe Properties connects people to genuine lands, homes, and commercial spaces across Nigeria. We simplify buying, selling, and investing—backed by integrity, market insight, and personalized service.
+              Gaitanoe Properties connects individuals and businesses to verified lands, homes, and commercial spaces across Nigeria. Through the Gaitanoe Franchise and our innovative Gaitanoe Synergy model, we simplify buying, selling, and investing in real estate—backed by integrity, market expertise, and personalized service.
               </p>
             </div>
           </div>

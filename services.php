@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Services</title>
+  <meta name="description" content="Discover the full range of real estate services offered by Gaitanoe Properties—from buying and selling to land acquisition, property management, and franchise opportunities across Nigeria.">
   <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
@@ -113,7 +114,7 @@ Services
 
 
 
-<h4 class="mt-[5rem]">At Gaitanoe Properties, we offer a full range of real estate services designed to meet the needs of homeowners, investors, renters, and developers. Our goal is simple: to make real estate easier, safer, and more rewarding for you. We offer the following services:</h4>
+<h4 class="mt-[3rem]">At Gaitanoe Properties, we offer a full range of real estate services designed to meet the needs of homeowners, investors, renters, and developers across Nigeria. Our goal is simple: to make real estate easier, safer, and more rewarding through trusted solutions like the Gaitanoe Franchise and our collaborative Gaitanoe Synergy model. We offer the following services:</h4>
 
 
 <div class="container mx-auto px-4 py-8">
@@ -170,6 +171,23 @@ Services
       <div class="p-4">
         <h3 class="text-lg font-semibold mb-2">Property Management</h3>
         <p class="text-gray-600">From rent collection and tenant management to maintenance and inspections, we provide professional management services for landlords and property investors who want hands-free peace of mind.</p>
+      </div>
+    </div>
+
+
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+      <img src="images/prs7.jpg" alt="Card Image" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-lg font-semibold mb-2">Gaitanoe Franchise</h3>
+        <p class="text-gray-600">The Gaitanoe Franchise gives real estate entrepreneurs the opportunity to operate under a trusted brand with full support. Gain access to verified listings, expert training, and the tools needed to grow your business with confidence.</p>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+      <img src="images/prs8.jpg" alt="Card Image" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-lg font-semibold mb-2">Gaitanoe Synergy</h3>
+        <p class="text-gray-600">Gaitanoe Synergy is our collaborative model for agents, consultants, and developers. Partner with us to co-market properties, share resources, and close more deals while staying independent.</p>
       </div>
     </div>
 
